@@ -2,12 +2,331 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39b1f5a6-4abd-443e-a968-2541db714241" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Spring.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1_javadoc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Runner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/engine/FileLoader.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/springContext.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/engine/fileSupport/FileFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/engine/fileSupport/FileLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/5" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/texts/9" />
+      <change type="DELETED" beforePath="C:\Users\rinat.muhamedgaliev\IdeaProjects\Compiller\src\engine\FileLoader.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-1.1.1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-1.1.1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-1.1.1-sources.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-1.1.1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-1.1.1.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-1.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-adapters-1.1.1.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-adapters-1.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-api-1.1.1.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-api-1.1.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-tests.jar" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/commons-logging-tests.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/resources/inherit.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/resources/inherit.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/collapsed.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/collapsed.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/expanded.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/expanded.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/external-classic.png" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/external-classic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/help_logo.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/help_logo.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowfolderclosed1_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowfolderclosed1_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowfolderopen2_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowfolderopen2_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowwaste1_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowwaste1_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowwaste2_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_arrowwaste2_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_doc_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_doc_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_doc_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_doc_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_error_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_error_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_error_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_error_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_folder_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_folder_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_folder_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_folder_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_help_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_help_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_info_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_info_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_info_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_info_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_members_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_members_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_sortdown.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_sortdown.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_sortup.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_sortup.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_success_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_success_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_success_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_success_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_usergroups_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_usergroups_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_warning_lrg.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_warning_lrg.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_warning_sml.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/icon_warning_sml.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/logo.png" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/logos/maven-feather.png" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/logos/maven-feather.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/newwindow-classic.png" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/newwindow-classic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/nw_maj_rond.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/nw_maj_rond.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/strich.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/strich.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/sw_maj_rond.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/sw_maj_rond.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/sw_med_rond.gif" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/images/sw_med_rond.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-aop-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-aop-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-aop-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-aop-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-aop-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-aop-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-asm-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-asm-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-asm-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-asm-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-asm-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-asm-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-aspects-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-aspects-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-aspects-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-aspects-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-aspects-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-aspects-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-beans-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-beans-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-beans-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-beans-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-beans-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-beans-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-context-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-context-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-context-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-context-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-context-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-context-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-context-support-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-context-support-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-context-support-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-context-support-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-context-support-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-context-support-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-core-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-core-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-core-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-core-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-core-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-core-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-expression-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-expression-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-expression-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-expression-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-expression-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-expression-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-instrument-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-instrument-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-instrument-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-instrument-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-instrument-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-instrument-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-instrument-tomcat-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-instrument-tomcat-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-instrument-tomcat-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-instrument-tomcat-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-instrument-tomcat-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-instrument-tomcat-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-jdbc-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-jdbc-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-jdbc-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-jdbc-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-jdbc-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-jdbc-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-jms-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-jms-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-jms-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-jms-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-jms-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-jms-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-orm-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-orm-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-orm-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-orm-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-orm-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-orm-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-oxm-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-oxm-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-oxm-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-oxm-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-oxm-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-oxm-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-struts-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-struts-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-struts-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-struts-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-struts-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-struts-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-test-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-test-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-test-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-test-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-test-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-test-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-tx-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-tx-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-tx-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-tx-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-tx-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-tx-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-web-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-web-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-web-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-web-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-web-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-web-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-webmvc-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-webmvc-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-webmvc-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-webmvc-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-webmvc-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-webmvc-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-webmvc-portlet-3.2.0.M1-javadoc.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-webmvc-portlet-3.2.0.M1-javadoc.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-webmvc-portlet-3.2.0.M1-sources.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-webmvc-portlet-3.2.0.M1-sources.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/spring/spring-webmvc-portlet-3.2.0.M1.jar" afterPath="$PROJECT_DIR$/libs/spring/spring-webmvc-portlet-3.2.0.M1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cssxfire.xml" afterPath="$PROJECT_DIR$/.idea/cssxfire.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Spring.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Spring.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1_javadoc.xml" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1_javadoc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Compiller.iml" afterPath="$PROJECT_DIR$/Compiller.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/LICENSE.txt" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/NOTICE.txt" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/NOTICE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/RELEASE-NOTES.txt" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/RELEASE-NOTES.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/RELEASE-NOTES.txt" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/RELEASE-NOTES.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/allclasses-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/allclasses-noframe.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/constant-values.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/deprecated-list.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/help-doc.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/index-all.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/index.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/options" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/options" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/Log.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/Log.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/LogConfigurationException.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/LogConfigurationException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/LogFactory.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/LogFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/LogSource.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/LogSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/Log.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/Log.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/LogConfigurationException.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/LogConfigurationException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/LogFactory.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/LogFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/LogSource.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/class-use/LogSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/AvalonLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/AvalonLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/Jdk13LumberjackLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/Jdk13LumberjackLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/Jdk14Logger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/Jdk14Logger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/Log4JLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/Log4JLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/LogFactoryImpl.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/LogFactoryImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/LogKitLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/LogKitLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/NoOpLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/NoOpLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/ServletContextCleaner.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/ServletContextCleaner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/SimpleLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/SimpleLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/WeakHashtable.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/WeakHashtable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/AvalonLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/AvalonLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/Jdk13LumberjackLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/Jdk13LumberjackLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/Jdk14Logger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/Jdk14Logger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/Log4JLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/Log4JLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/LogFactoryImpl.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/LogFactoryImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/LogKitLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/LogKitLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/NoOpLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/NoOpLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/ServletContextCleaner.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/ServletContextCleaner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/SimpleLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/SimpleLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/WeakHashtable.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/class-use/WeakHashtable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-tree.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-use.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/impl/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-tree.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-use.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/org/apache/commons/logging/package-use.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/overview-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/overview-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/overview-tree.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/package-list" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/package-list" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/packages.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/packages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/packages" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/packages" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/serialized-form.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/serialized-form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/stylesheet.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/apidocs/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/building.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/building.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/clirr-report.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/clirr-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/maven-base.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/maven-base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/maven-theme.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/maven-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/print.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/print.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/site.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/css/site.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/cvs-usage.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/cvs-usage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/dependencies.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/dependencies.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/guide.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/guide.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/index.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/integration.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/integration.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/issue-tracking.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/issue-tracking.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/jdepend-report.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/jdepend-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/junit-report.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/junit-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/license.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/license.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/mail-lists.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/mail-lists.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/project-info.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/project-info.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/project-reports.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/project-reports.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/project-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/project-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/proposal.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/proposal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/rat-report.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/rat-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/source-repository.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/source-repository.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/surefire-report.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/surefire-report.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/team-list.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/team-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/tech.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/tech.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/troubleshooting.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/troubleshooting.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/allclasses-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/index.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/AbstractLogTest.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/AbstractLogTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/AltHashtable.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/AltHashtable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/AltHashtableTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/AltHashtableTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/BadHashtablePropertyTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/BadHashtablePropertyTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/BasicOperationsTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/BasicOperationsTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/DummyException.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/DummyException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/LoadTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/LoadTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/LogTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/LogTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/NullClassLoaderTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/NullClassLoaderTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/PathableClassLoader.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/PathableClassLoader.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/PathableTestSuite.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/PathableTestSuite.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/SimpleLogTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/SimpleLogTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/UserClass.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/UserClass.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/avalon/AvalonLoggerTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/avalon/AvalonLoggerTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/avalon/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/avalon/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/avalon/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/avalon/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/FirstPriorityConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/FirstPriorityConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/PriorityConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/PriorityConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/config/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/impl/WeakHashtableTest.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/impl/WeakHashtableTest.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/impl/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/impl/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/CustomConfigAPITestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/CustomConfigAPITestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/CustomConfigFullTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/CustomConfigFullTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/CustomConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/CustomConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/DefaultConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/DefaultConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/TestHandler.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/TestHandler.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/jdk14/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/StandardTests.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/StandardTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/ApiClasspathStandardTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/ApiClasspathStandardTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/AppClasspathStandardTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/AppClasspathStandardTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/ChildClasspathStandardTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/ChildClasspathStandardTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/Log4j12StandardTests.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/Log4j12StandardTests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/ParentClasspathStandardTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/ParentClasspathStandardTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/TestAppender.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/TestAppender.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/log4j12/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/log4j/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/logkit/StandardTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/logkit/StandardTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/logkit/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/logkit/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/logkit/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/logkit/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/noop/NoOpLogTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/noop/NoOpLogTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/noop/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/noop/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/noop/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/noop/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/ChildFirstTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/ChildFirstTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/GeneralTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/GeneralTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/ParentFirstTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/ParentFirstTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/pathable/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/MockSecurityManager.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/MockSecurityManager.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/SecurityAllowedTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/SecurityAllowedTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/SecurityForbiddenTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/SecurityForbiddenTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/security/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/servlet/BasicServletTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/servlet/BasicServletTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/servlet/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/servlet/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/servlet/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/servlet/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/CustomConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/CustomConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/DateTimeCustomConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/DateTimeCustomConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/DecoratedSimpleLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/DecoratedSimpleLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/DefaultConfigTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/DefaultConfigTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/LogRecord.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/LogRecord.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/simple/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/BadTCCLTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/BadTCCLTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/NullTCCLTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/NullTCCLTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/MyLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/MyLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/MyLogFactoryImpl.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/MyLogFactoryImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/custom/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/TcclDisabledTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/TcclDisabledTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/TcclEnabledTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/TcclEnabledTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/log/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/TcclDisabledTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/TcclDisabledTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/TcclEnabledTestCase.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/TcclEnabledTestCase.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/logfactory/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/org/apache/commons/logging/tccl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/overview-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/overview-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/stylesheet.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref-test/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/allclasses-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/index.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/Log.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/Log.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/LogConfigurationException.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/LogConfigurationException.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/LogFactory.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/LogFactory.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/LogSource.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/LogSource.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/AvalonLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/AvalonLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/Jdk13LumberjackLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/Jdk13LumberjackLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/Jdk14Logger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/Jdk14Logger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/Log4JLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/Log4JLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/LogFactoryImpl.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/LogFactoryImpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/LogKitLogger.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/LogKitLogger.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/NoOpLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/NoOpLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/ServletContextCleaner.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/ServletContextCleaner.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/SimpleLog.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/SimpleLog.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/WeakHashtable.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/WeakHashtable.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/impl/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/package-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/package-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/org/apache/commons/logging/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/overview-frame.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/overview-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/overview-summary.html" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/stylesheet.css" afterPath="$PROJECT_DIR$/libs/commons-logging-1.1.1/site/xref/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Runner.java" afterPath="$PROJECT_DIR$/src/Runner.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/springContext.xml" afterPath="$PROJECT_DIR$/src/springContext.xml" />
     </list>
     <ignored path="Compiller.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,28 +388,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="FileLoader.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/engine/fileSupport/FileLoader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="9" selection-start="920" selection-end="920" vertical-scroll-proportion="0.039130434">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#487#493#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Runner.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="5" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="springContext.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/springContext.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="52" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileLoader.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/engine/FileLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="249" selection-end="249" vertical-scroll-proportion="0.3942029">
+            <state line="18" column="53" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -109,9 +422,11 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Runner.java" />
-        <option value="$PROJECT_DIR$/src/springContext.xml" />
         <option value="$PROJECT_DIR$/src/engine/FileLoader.java" />
+        <option value="$PROJECT_DIR$/src/engine/fileSupport/FileFilter.java" />
+        <option value="$PROJECT_DIR$/src/springContext.xml" />
+        <option value="$PROJECT_DIR$/src/Runner.java" />
+        <option value="$PROJECT_DIR$/src/engine/fileSupport/FileLoader.java" />
       </list>
     </option>
   </component>
@@ -158,6 +473,62 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="texts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Compiller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fileSupport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -166,6 +537,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
@@ -340,7 +712,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -353,19 +725,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="JSON Formatter" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.6" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967825" sideWeight="0.5034965" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4965035" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -426,45 +798,123 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/FileLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/engine/fileSupport/FileLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="13" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/springContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="52" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/engine/fileSupport/FileFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="52" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/springContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="66" selection-start="359" selection-end="359" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/9">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/texts/10">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="5" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
+        <state line="18" column="53" selection-start="647" selection-end="647" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/springContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/engine/fileSupport/FileLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="52" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/FileLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="249" selection-end="249" vertical-scroll-proportion="0.3942029">
-          <folding />
+        <state line="36" column="9" selection-start="920" selection-end="920" vertical-scroll-proportion="0.039130434">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#487#493#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
