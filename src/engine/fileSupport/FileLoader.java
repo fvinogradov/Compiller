@@ -1,10 +1,7 @@
 package engine.fileSupport;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.io.*;
+import java.util.*;
 
 /**
  * Developer: Muhamedgaliev Rinat
@@ -38,6 +35,35 @@ public class FileLoader {
         return result;
     }
 
+    public List<String> sortedMapIds(){
+        List<File> sourceFilesList = initFiles();
+        String lineFromTextFile;
+        List<String> words = new ArrayList<String>();
+
+        for (File file : sourceFilesList){
+            try {
+                FileInputStream inputStream = new FileInputStream(file);
+                DataInputStream dataInputStream = new DataInputStream(inputStream);
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
+                while ((lineFromTextFile = bufferedReader.readLine()) != null){
+                    StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-{}()");
+                    while (clearWords.hasMoreTokens()){
+                        words.add(clearWords.nextToken().toLowerCase());
+                    }
+                }
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        words.toArray();
+
+        return words;
+    }
+
+    /*Utils methods*/
     private void checkPath() throws IOException {
         if(FILE_PATH.length() < 0){
             throw new IOException("path not valid");
