@@ -11,5 +11,6 @@ public class Runner {
     public static void main(String[] args){
         ApplicationContext context = new ClassPathXmlApplicationContext("springContext.xml");
         FileLoader fileLoader = (FileLoader) context.getBean("fileLoader");
+        fileLoader.wordsTable();
     }
 }

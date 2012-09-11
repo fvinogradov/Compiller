@@ -35,32 +35,20 @@ public class FileLoader {
         return result;
     }
 
-    public List<String> sortedMapIds(){
-        List<File> sourceFilesList = initFiles();
-        String lineFromTextFile;
-        List<String> words = new ArrayList<String>();
+    public void wordsTable(){
+        List<String> wordsList= sortedMapIds();
+        Map<Integer, String> wordsMap = new HashMap<Integer, String>();
 
-        for (File file : sourceFilesList){
-            try {
-                FileInputStream inputStream = new FileInputStream(file);
-                DataInputStream dataInputStream = new DataInputStream(inputStream);
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
-                while ((lineFromTextFile = bufferedReader.readLine()) != null){
-                    StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-{}()");
-                    while (clearWords.hasMoreTokens()){
-                        words.add(clearWords.nextToken().toLowerCase());
-                    }
-                }
-            } catch (FileNotFoundException e) {
-                e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+        for (int iter = 0; iter < wordsList.size(); iter++){
+            wordsMap.put(iter + 1, wordsList.get(iter));
+        }
+        Set<Map.Entry<Integer,String>> set = wordsMap.entrySet();
+
+        for(Map.Entry<Integer, String> entry : set) {
+            System.out.println(" Key: " + entry.getKey());
+            System.out.println(" Value: " + entry.getValue());
         }
 
-        words.toArray();
-
-        return words;
     }
 
     /*Utils methods*/
@@ -91,5 +79,33 @@ public class FileLoader {
         if(!file.canRead()){
             throw new IOException(file + " can't read");
         }
+    }
+
+    private List<String> sortedMapIds(){
+        List<File> sourceFilesList = initFiles();
+        String lineFromTextFile;
+        List<String> words = new ArrayList<String>();
+        for (File file : sourceFilesList){
+            try {
+                FileInputStream inputStream = new FileInputStream(file);
+                DataInputStream dataInputStream = new DataInputStream(inputStream);
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
+                while ((lineFromTextFile = bufferedReader.readLine()) != null){
+                    StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-{}()");
+                    while (clearWords.hasMoreTokens()){
+                        words.add(clearWords.nextToken().toLowerCase());
+                    }
+                }
+            } catch (FileNotFoundException e) {
+                e.printStackTrace();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+        String[] clearWordsArray = words.toArray(new String[words.size()]);
+
+        Arrays.sort(clearWordsArray);
+        return Arrays.asList(clearWordsArray);
     }
 }
