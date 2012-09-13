@@ -10,6 +10,8 @@ import java.util.*;
 
 public class FileLoader {
     private static final String FILE_PATH = "texts";
+    private static final String Source_PATH = "sourceText";
+
     private String filePath;
 
     public FileLoader() {
@@ -23,7 +25,7 @@ public class FileLoader {
             checkPath();
             inputFile = new File(FILE_PATH);
             filesList = Arrays.asList(inputFile.listFiles());
-            checkCountFiles(filesList);
+            //checkCountFiles(filesList);
             for (File file : filesList){
                 checkIsFile(file);
                 checkFileRead(file);
@@ -45,10 +47,73 @@ public class FileLoader {
         Set<Map.Entry<Integer,String>> set = wordsMap.entrySet();
 
         for(Map.Entry<Integer, String> entry : set) {
-            System.out.println(" Key: " + entry.getKey());
-            System.out.println(" Value: " + entry.getValue());
+            //System.out.println(" Key: " + entry.getKey());
+            //System.out.println(" Value: " + entry.getValue());
         }
+    }
 
+    public String readSourceFile(){
+        File file = new File("source.txt");
+        FileInputStream inputStream = null;
+        String lineFromTextFile;
+        List<String> words = new ArrayList<String>();
+        try {
+            inputStream = new FileInputStream(file);
+            DataInputStream dataInputStream = new DataInputStream(inputStream);
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
+            while ((lineFromTextFile = bufferedReader.readLine()) != null){
+                StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-—{}()");
+                while (clearWords.hasMoreTokens()){
+                    words.add(clearWords.nextToken().toLowerCase());
+                }
+            }
+            return words.get(0);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public int logariphmSearch(){
+        int size = sortedMapIds().size()/2;
+        for (int i = 0; i < Math.round((int)(Math.log(sortedMapIds().size())/Math.log(2))); i++){
+            System.out.println(i +" " + sortedMapIds().get(size) + " : " + readSourceFile());
+            if(sortedMapIds().get(size).charAt(0) > readSourceFile().charAt(0)){
+                size = size - (size/2);
+                System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
+                if(readSourceFile() == sortedMapIds().get(size - 1)){
+                    return i;
+                }
+            } else if(sortedMapIds().get(size).charAt(0) < readSourceFile().charAt(0)){
+                size = size + (size/2);
+                System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
+                if(readSourceFile() == sortedMapIds().get(size + 1)){
+                    return i;
+                }
+            } else if (sortedMapIds().get(size).charAt(0) == readSourceFile().charAt(0)){
+                if(sortedMapIds().get(size).equals(readSourceFile())){
+                    return i;
+                }else {
+                    if(sortedMapIds().get(size).charAt(1) > readSourceFile().charAt(1)){
+                        size = size - (size/2);
+                        System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
+                        if(readSourceFile() == sortedMapIds().get(size - 1)){
+                            return i;
+                        }
+                    } else if(sortedMapIds().get(size).charAt(1) < readSourceFile().charAt(1)){
+                        size = size + (size/2);
+                        System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
+                        if(readSourceFile() == sortedMapIds().get(size + 1)){
+                            return i;
+                        }
+                    }
+                }
+            }
+
+        }
+        return -1;
     }
 
     /*Utils methods*/
@@ -102,10 +167,9 @@ public class FileLoader {
                 e.printStackTrace();
             }
         }
-
         String[] clearWordsArray = words.toArray(new String[words.size()]);
-
         Arrays.sort(clearWordsArray);
         return Arrays.asList(clearWordsArray);
     }
+
 }

@@ -1,6 +1,4 @@
 import engine.fileSupport.FileLoader;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Developer: Muhamedgaliev Rinat
@@ -9,8 +7,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Runner {
     public static void main(String[] args){
-        ApplicationContext context = new ClassPathXmlApplicationContext("springContext.xml");
-        FileLoader fileLoader = (FileLoader) context.getBean("fileLoader");
+        FileLoader fileLoader = new FileLoader();
         fileLoader.wordsTable();
+        int iter = fileLoader.logariphmSearch();
+        if (iter == -1){
+            System.out.print("Error!Wrong id");
+        } else {
+            System.out.print("Выполнено количество шагов поиска : " + iter);
+        }
     }
 }
