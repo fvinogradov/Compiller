@@ -47,12 +47,11 @@ public class FileLoader {
         Set<Map.Entry<Integer,String>> set = wordsMap.entrySet();
 
         for(Map.Entry<Integer, String> entry : set) {
-            //System.out.println(" Key: " + entry.getKey());
-            //System.out.println(" Value: " + entry.getValue());
+            //System.out.println( entry.getKey() + " : " + entry.getValue());
         }
     }
 
-    public String readSourceFile(){
+    public List<String> readSourceFile(){
         File file = new File("source.txt");
         FileInputStream inputStream = null;
         String lineFromTextFile;
@@ -62,58 +61,18 @@ public class FileLoader {
             DataInputStream dataInputStream = new DataInputStream(inputStream);
             BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
             while ((lineFromTextFile = bufferedReader.readLine()) != null){
-                StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-—{}()");
+                StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-{}()!@#_\\|/$%=+^&*()\":;\t\n[]<>'");
                 while (clearWords.hasMoreTokens()){
-                    words.add(clearWords.nextToken().toLowerCase());
+                    words.add(clearWords.nextToken().toUpperCase());
                 }
             }
-            return words.get(0);
+            return words;
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
         return null;
-    }
-
-    public int logariphmSearch(){
-        int size = sortedMapIds().size()/2;
-        for (int i = 0; i < Math.round((int)(Math.log(sortedMapIds().size())/Math.log(2))); i++){
-            System.out.println(i +" " + sortedMapIds().get(size) + " : " + readSourceFile());
-            if(sortedMapIds().get(size).charAt(0) > readSourceFile().charAt(0)){
-                size = size - (size/2);
-                System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
-                if(readSourceFile() == sortedMapIds().get(size - 1)){
-                    return i;
-                }
-            } else if(sortedMapIds().get(size).charAt(0) < readSourceFile().charAt(0)){
-                size = size + (size/2);
-                System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
-                if(readSourceFile() == sortedMapIds().get(size + 1)){
-                    return i;
-                }
-            } else if (sortedMapIds().get(size).charAt(0) == readSourceFile().charAt(0)){
-                if(sortedMapIds().get(size).equals(readSourceFile())){
-                    return i;
-                }else {
-                    if(sortedMapIds().get(size).charAt(1) > readSourceFile().charAt(1)){
-                        size = size - (size/2);
-                        System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
-                        if(readSourceFile() == sortedMapIds().get(size - 1)){
-                            return i;
-                        }
-                    } else if(sortedMapIds().get(size).charAt(1) < readSourceFile().charAt(1)){
-                        size = size + (size/2);
-                        System.out.println(i + sortedMapIds().get(size) + " : " + readSourceFile());
-                        if(readSourceFile() == sortedMapIds().get(size + 1)){
-                            return i;
-                        }
-                    }
-                }
-            }
-
-        }
-        return -1;
     }
 
     /*Utils methods*/
@@ -146,7 +105,7 @@ public class FileLoader {
         }
     }
 
-    private List<String> sortedMapIds(){
+    public List<String> sortedMapIds(){
         List<File> sourceFilesList = initFiles();
         String lineFromTextFile;
         List<String> words = new ArrayList<String>();
@@ -156,9 +115,9 @@ public class FileLoader {
                 DataInputStream dataInputStream = new DataInputStream(inputStream);
                 BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
                 while ((lineFromTextFile = bufferedReader.readLine()) != null){
-                    StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-{}()");
+                    StringTokenizer clearWords = new StringTokenizer(lineFromTextFile, " ,.!?-{}+_()!@#$%^&*()\"=:;\t\n[]<>'");
                     while (clearWords.hasMoreTokens()){
-                        words.add(clearWords.nextToken().toLowerCase());
+                        words.add(clearWords.nextToken().toUpperCase());
                     }
                 }
             } catch (FileNotFoundException e) {

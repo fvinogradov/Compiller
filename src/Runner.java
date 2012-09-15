@@ -1,4 +1,8 @@
+import engine.binarySearch.BinarySearch;
 import engine.fileSupport.FileLoader;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Developer: Muhamedgaliev Rinat
@@ -9,11 +13,20 @@ public class Runner {
     public static void main(String[] args){
         FileLoader fileLoader = new FileLoader();
         fileLoader.wordsTable();
-        int iter = fileLoader.logariphmSearch();
-        if (iter == -1){
-            System.out.print("Error!Wrong id");
-        } else {
-            System.out.print("Выполнено количество шагов поиска : " + iter);
+        BinarySearch binarySearch = new BinarySearch(fileLoader.sortedMapIds());
+        List<Integer> iter =  new ArrayList<Integer>();
+        int wordsCount = fileLoader.readSourceFile().size();
+        int resultSumm = 0;
+        for (String word : fileLoader.readSourceFile()){
+            int result =  (Integer) binarySearch.search(word);
+            if(result != 0){
+                iter.add(result);
+                resultSumm = resultSumm + result;
+                System.err.println(word + " нашлось за :" + result + " шагов");
+            }
         }
+
+        System.out.println("\nСреднее количество" + " : " + String.format("%.3f", Double.valueOf(resultSumm) / Double.valueOf(wordsCount)));
+
     }
 }
