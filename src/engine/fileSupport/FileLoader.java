@@ -75,6 +75,30 @@ public class FileLoader {
         return null;
     }
 
+    public String readSourceFileToString(){
+        File file = new File("source.txt");
+        FileInputStream inputStream = null;
+        String lineFromTextFile;
+        String words = new String();
+        try {
+            inputStream = new FileInputStream(file);
+            DataInputStream dataInputStream = new DataInputStream(inputStream);
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(dataInputStream));
+            while ((lineFromTextFile = bufferedReader.readLine()) != null){
+                    words+=lineFromTextFile.toLowerCase();
+            }
+            words = words.replaceAll("\\s", "");
+            words = words.replaceAll("\\t", "");
+            words = words.replaceAll("\\n", "");
+            return words;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     /*Utils methods*/
     private void checkPath() throws IOException {
         if(FILE_PATH.length() < 0){

@@ -1,5 +1,6 @@
 import engine.binarySearch.BinarySearch;
 import engine.fileSupport.FileLoader;
+import engine.lexicalAnalyzer.LexicalAnalyzer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,15 @@ import java.util.List;
 
 public class Runner {
     public static void main(String[] args){
+        LexicalAnalyzer lexicalAnalyzer = new LexicalAnalyzer();
+        try {
+            lexicalAnalyzer.analyze();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void laba1(){
         FileLoader fileLoader = new FileLoader();
         fileLoader.wordsTable();
         BinarySearch binarySearch = new BinarySearch(fileLoader.sortedMapIds());
@@ -27,6 +37,5 @@ public class Runner {
         }
 
         System.out.println("\nСреднее количество" + " : " + String.format("%.3f", Double.valueOf(resultSumm) / Double.valueOf(wordsCount)));
-
     }
 }
